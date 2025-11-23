@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <title>안전 문자 알리미</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap">
+</head>
+
+
+<body class="page page-test">
+    <div class = "header">
+      <div class = "header-box">
+         <div class = "hicon-bell">
+            <img src = "./images/bellwall.png" class = "icon-bellwall">
+            <img src = "./images/bell.png" class = "icon-bell">
+         </div>
+         <span class = "header-text">본 서비스는 피싱 • 스미싱 위험 가능성을 안내하는 참고용 도구입니다. 최종 판단은 사용자에게 있습니다.</span>
+      </div>
+   </div>
+
+  <div class="test-box">
+   
+    <div class="title-box">
+      <span class="t1">[ 위험 문자 판별하기 ]</span>
+      <span class="t2">문자 내용을 넣으면 위험 여부를 알려드려요.</span>
+    </div>
+
+   
+    <div class="smallresult-box">
+      <span>분석 결과</span>
+      <div class="summary"></div>
+    </div>
+
+   <div class = "inout-box">
+      <div class="intitle">
+         <span>사기 의심 문자 입력</span>
+
+         <textarea id="spamM" class="input-area"
+         placeholder="1. 사기 의심이 되는 문자를 이곳에 넣어주세요
+        
+2. 하단의 [분석 결과 보기] 버튼을 눌러주세요"></textarea>
+      </div>
+
+      <div class="arrow">⟶</div>
+
+      <div class="outtitle">
+        <span>분석 결과 안내</span>
+        <div class="output-box"></div>
+      </div>
+
+    </div>
+
+    <button class="watch-result" type="submit">분석 결과 보기</button>
+   </div>
+   
+   <script src="./main.js"></script>
+
+</body>
+</html>

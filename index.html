@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang = "ko">
+
+<head>
+<meta charset = "utf-8">
+<title>안전 문자 알리미</title>
+<link rel = "stylesheet" href = "./css/style.css">
+<link rel = "stylesheet" href= "https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap">
+</head>
+
+
+<body class = "page page-start">
+
+   <div class = "header">
+      <div class = "header-box">
+         <div class = "hicon-bell">
+            <img src = "./images/bellwall.png" class = "icon-bellwall">
+            <img src = "./images/bell.png" class = "icon-bell">
+         </div>
+         <span class = "header-text">본 서비스는 피싱 • 스미싱 위험 가능성을 안내하는 참고용 도구입니다. 최종 판단은 사용자에게 있습니다.</span>
+      </div>
+   </div>
+   
+   <div class="slider">
+    
+    <div class="slides" id="slideWrap">
+
+      <div class="slide slide-1" style="background-image: url('images/slide_area_01.png');">
+        <div class="slide-content">
+          <h2>
+            안전 문자 알리미
+          </h2>
+          <p>세대 간 디지털 격차를 줄이는 안전 문자 안내 서비스<br>AI가 사기 의심 문자를 분석해 안전하게 안내합니다.</p>
+        </div>
+      </div>
+
+      <div class="slide slide-2" style="background-image: url('images/slide_area_02.png');">
+        <div class="slide-content">
+          <h2>
+            안전 문자 알리미
+          </h2>
+          <p>최근 문자 사기 피해가 크게 늘고 있습니다.<br>본 서비스는 문자의 위험도를 분석해<br>피해를 예방하는 데 도움이 됩니다.</p>
+        </div>
+      </div>
+
+      <div class="slide slide-3" style="background-image: url('images/slide_area_03.png');">
+        <div class="slide-content">
+          <h2>
+            안전 문자 알리미
+          </h2>
+          <p>복잡한 절차 없이 문자만 넣으면 위험 여부를 확인할 수 있습니다.<br>일상 속에서 안전하게 활용해보세요.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="slider-arrow left" onclick="prevSlide()">&#10094;</div>
+    <div class="slider-arrow right" onclick="nextSlide()">&#10095;</div>
+
+    <div class="slider-dots" id="dotsContainer">
+      <div class="dot active" onclick="currentSlide(0)"></div>
+      <div class="dot" onclick="currentSlide(1)"></div>
+      <div class="dot" onclick="currentSlide(2)"></div>
+    </div>
+   </div>
+
+   <div class = "big-box">
+      <div class = "round-box">
+
+         <a href = "info.html" class = "small-box link-box">
+          <div class = "top-row">
+            <span class = "line1">위험 문자 판별하러 가기</span>
+            <img src = "./images/arrow_icon.svg" class = "arrow-icon">
+            </div>
+            <span class = "line2">문자 내용을 넣으면 위험 여부를 알려드려요.</span>
+         </a>
+
+         <div class = "small-box">
+            본 서비스는 문자 위험 가능성을 안내하는 참고용 도구입니다.<br>
+            최종 판단은 사용자에게 있습니다.
+         </div>
+
+      </div>
+   </div>
+
+   <div class = "frame2">
+      <span class = "line3">사회 속 다양한 '차이'를 넘어, 기술로 균형을 만들다.</span>
+      <div class = "m-line"></div>
+      <span class = "line4">
+         건강하고 안전한 문자 생활을<br>
+         함께 만들어갑니다.
+      </span>
+   </div>
+
+<script src="./main.js"></script>
+</body>
+</html>
